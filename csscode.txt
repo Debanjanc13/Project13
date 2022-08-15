@@ -1,0 +1,140 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  height: 500px;
+  background-color: #51238d;
+}
+nav {
+    float: right;
+    margin-right: right;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    color: #fff;
+
+  }
+  .nav-item-Home {
+    margin-right: 20px;
+    color: #325be2;
+    border-bottom: 3px solid red;
+
+  }
+  .nav-item-active {
+    background-color: #0769a1;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 400;
+  }
+  .logo {
+    margin: 20px;
+    margin-left: 100px;
+  }
+  .header-text {
+    color: #fff;
+    margin-left: 60px;
+    margin-top: -360px;
+
+  }
+  
+  .header-image {
+    margin-left: 1000px;
+    margin-top: -50px;
+
+  } 
+
+  .illustration-image{
+    margin-left: 100px;
+    margin-top: 220px;
+  }
+  
+
+  .body-text{
+    margin-top: 100px;
+    margin-left: 1000px;
+  }
+
+  /* .orange{
+    margin-top: 120px;
+    margin-left: 500px;
+  } */
+  
+
+
+
+
+  .service-heading {
+    font-weight: 800;
+    margin-left: 600px;
+    margin-top: 100px;
+    font-style: bold;
+  }
+  .cards {
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    width: 20%;
+    height: 200px;
+    background-color: #fff;
+    margin-right: 30px;
+    box-shadow: 0px 5px 10px #000;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .card-active {
+    width: 20%;
+    height: 200px;
+    background-color: #fff;
+    margin-right: 30px;
+    box-shadow: 0px 5px 10px #000;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .card-logo {
+    margin-left: 110px;
+    margin-top: 30px;
+  }
+  
+  .card-head-active {
+    color: #fff;
+    background-color: #51238d;
+    margin-left: 65px;
+  }
+
+  .card-body-active {
+    background-color: #51238d;
+    color: #fff;
+    font-size: small;
+    margin-left: 55px;
+  }
+
+  .card-head {
+    color: #000;
+    margin-left: 65px;
+  }
+  
+  .card-body {
+    color: #000;
+    font-size: small;
+    margin-left: 55px;
+  }
+  

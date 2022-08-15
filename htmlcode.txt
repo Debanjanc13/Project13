@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas Illustration Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <!-- Header Starts -->
+        <header>
+            <!-- Navigation Bar Starts -->
+            <nav>
+                <!-- Navigation items Starts -->
+                <a class="nav-item-Home">Home</a>
+                <a class="nav-item">services</a>
+                <a class="nav-item">pricing</a>
+                <a class="nav-item">testimonials</a>
+                <a class="nav-item">blog</a>
+                <a class="nav-item-active">FREE TRIAL</a>
+                <svg class="nav-item" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85903 8.24401L11.816 11.321L11.815 11.322C11.991 11.4877 12.0614 11.7369 11.9982 11.9703C11.9349 12.2036 11.7483 12.3831 11.5127 12.4372C11.2771 12.4914 11.0308 12.4113 10.872 12.229L7.89103 9.12901C7.04998 9.72236 6.04531 10.0397 5.01603 10.037C2.66419 10.0372 0.627975 8.40344 0.118589 6.10743C-0.390797 3.81142 0.763438 1.46979 2.89472 0.475412C5.02599 -0.518963 7.56198 0.100953 8.99418 1.96641C10.4264 3.83187 10.3702 6.44192 8.85903 8.24401ZM8.44412 3.59725C7.86941 2.21135 6.51636 1.3082 5.01603 1.30901C2.9693 1.31231 1.31123 2.97128 1.30903 5.01801C1.30903 6.51834 2.21291 7.8709 3.59912 8.44487C4.98532 9.01883 6.58078 8.70114 7.64139 7.63996C8.702 6.57878 9.01883 4.98314 8.44412 3.59725Z" fill="white"/> -->
+                </svg>
+            </nav>
+            <!-- LOGO -->
+            <div >
+                <img class="logo" src="./white-logo.png" height=40" width="100" alt="logo">
+            </div>
+
+            <!-- header-image -->
+            <img class="header-image" src="./saas header image.svg" height="400" width="400">
+
+            <!-- Text -->
+            <div class="header-text">
+                <h2>
+                    Codext one of <br>the best system <br> in SAAS
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. A nulla nulla etlam turpis quam diam et. <br> Arcu nisi, sed aenean sit nisl.
+                </p>
+            </div>
+        <!-- Image -->
+        <div>
+            <img class="illustration-image" src="./Saas illustration-01.svg" height="600" width="600">
+        </div>
+    </header>
+            <!-- Text -->
+            <div class="body-text">
+                
+                
+                <h2>
+                    It's helpful for operating <br> system 
+                </h2>
+                
+                <h3>
+
+                    <img class="orange"src="./orange arrow.png"height="30">
+                    Ultra fast & Secure
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
+                </p>
+                <h3>
+                    <img class="blue"src="./blue arrow.png" height="30">
+                    Allow customization
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
+                </p>
+
+                <h3>
+                    <img class="green"src="./green arrow.png"height="30"> 
+                    Smart contract
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
+                </p>
+
+            </div>
+                        <!-- Text
+                        <div class="footer-text">
+                            <h2>
+                                We Provide Best Feature <br> for Customer 
+                            </h2>
+            
+                        </div>
+             -->
+    <!-- Service Section -->
+    <div class="services">
+        <h2 class="service-heading">We Provide Best Feature        <br>        for Customer </h2>
+ 
+    <!-- Cards -->
+        <div class="cards">
+            <!-- Card 01 -->
+            <div class="card-active">
+                <img class="card-logo" src="./web-developing.svg"height="50">
+                <h3 class="card-head-active">Clean Code</h3>
+                <p class="card-body-active">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Card 02 -->
+            <div class="card">
+                <img class="card-logo" src="./data-analytics.svg"height="50">
+                <h3 class="card-head">Data Analytics</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Card 03 -->
+            <div class="card">
+                <img class="card-logo" src="./secured-profile.svg"height="50">
+                <h3 class="card-head">Fully Secured</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+            <!-- Card 04 -->
+            <div class="card">
+                <img class="card-logo" src="./support.svg"height="50">
+                <h3 class="card-head">24/7 Support</h3>
+                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
+            </div>
+
+
+    
+    
+    
+</body>
+</html>
